@@ -1,0 +1,224 @@
+html {
+  margin: 0;
+}
+.container {
+    /* font-size: 40px; */
+    width: 100%;
+    /* background: LightGray; */
+    display: grid;
+    /* add your code below this line */
+    display: grid;
+    grid-template-rows: auto;
+    
+    /* add your code above this line */
+}
+
+header {
+    display: flex;
+}
+
+nav {
+    display: flex;
+}
+
+.nav-header {
+    padding-left: 150px;
+    list-style-type: none;
+    font-size: 16px;
+}
+
+.nav-header a {
+    padding: 6px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 3;
+    padding: 10px;
+    margin-right: 20px;
+  }
+  
+.navbar a img {
+    width: 30px;
+  }
+  
+.navbar a{
+    padding: 8px;
+  }
+
+.navbar .link{
+    color: #2c2b2b;
+    padding-top: 14px;
+    text-decoration: none;
+}
+
+.navbar .link:hover{
+  text-decoration: underline;
+}
+
+.google-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 25px;
+  }
+
+.google-logo img {
+    width: 80px;
+}
+  
+a:hover {
+    text-decoration: underline;
+  }
+
+hr {
+    margin-top: 0;
+}
+
+#paragraph-1 {
+    font-size: 16px;
+    padding-left: 150px;
+}
+
+div h1 {
+    font-size: 20px;
+
+}
+
+.d3-1 {
+    padding-left: 150px;
+}
+
+.d3-1 h1{
+  color: rgb(65, 65, 202);
+  font-weight: normal;
+}
+
+.d3-1 a{
+  text-decoration: none;
+}
+
+.d3-1 img {
+    margin: 0;
+    width: 110px;
+    height: 90px;
+    padding: auto;
+    
+}
+    /* Search Box */
+  
+input[type="search"] {
+    padding-left: 15px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    height: 40px;
+    width: 583px;
+    background: url(https://www.intraway.com/wp-content/uploads/2018/11/search-ico.svg?x44094) no-repeat scroll 540px 8px;
+    background-size: 30px 22px;
+    outline: none;
+  }
+  
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+input[type="text"]:hover {
+      box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+      border-color: rgba(223,225,229,0);
+  }
+  
+input[type="text"]:focus {
+      box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+      border-color: rgba(223,225,229,0);
+      outline: none;
+  }
+
+  .nationality {
+    font-family: arial;
+    color: #0000008a;
+    font-size: 15px;
+  }
+  
+.footer {
+    margin: auto 0 0 0;
+    justify-content: flex-start;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-top: 1px solid #e4e4e4;
+    padding-left: 20px;
+    /* width: 100%; */
+  }
+  
+.footer-group {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-top: 1px solid #e4e4e4;
+    padding-left: 20px;
+  }
+  
+.footer-div {
+    color: #5f6368;
+    line-height: 28px;
+  }
+
+  .many-classes, .footer-div-2 {
+    color: #000000de;
+    font-family: arial;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.d3 {
+  width: 625px;
+  padding-left: 150px;
+}
+
+.d3 h3 {
+  color: #1a0dab;
+  font-size: 20px !important;
+  font-weight: normal;
+  height: 100%;
+  margin-bottom: 0;
+}
+
+.d3 h3:hover {
+  text-decoration: underline;
+}
+
+.d3 cite {
+  display: inline-block;
+  font-size: 14px;
+  font-style: normal;
+  color: #006621;
+  padding: 5px 0;
+}
+
+.d3 p {
+  color: #545454;
+  /* line-height: 20px; */
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin: 0;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.d3 a {
+  text-decoration: none;
+  font-size:  14px;
+}
+
+.d3 a:hover {
+  text-decoration: underline;
+}
+
+.d3 a:visited {
+  color: #609;
+}
